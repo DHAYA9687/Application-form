@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    background-image: url("pexels-luke-barky-2899737.jpg");
+    background-image:cover;
+    background-position: center;
+
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    
+}
+.box{
+    box-sizing: border-box;
+    height: 600px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow:#464040 0px 0px 20px;
+    border-radius: 20px;
+    margin:auto;
+    margin-top:30px;
+    padding: 20px;
+}
+
+button{
+    background-color:rgb(44, 44, 202);
+    padding:10px 15px;
+    width:100%;
+    align-self: center;
+    border:none;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    width:50%
+}
+.form{
+
+    display:flex;
+    align-items: left;
+    justify-content: right;
+    flex-direction: column;
+}
+button:hover{
+    background-color:rgb(52, 46, 139);
+    cursor:pointer;
+    border-radius:10px;
+}
+
+label{
+    display:block;
+    font-weight:bold;
+    text-align:left;
+    padding:4px
+}
+input,select{
+    padding:10px;
+    margin-bottom:4px;
+    border-radius:10px;
+    border:1px solid #333;
+    box-sizing: border-box;
+    width:100%;
+    margin-left:10px;
+    
+}
